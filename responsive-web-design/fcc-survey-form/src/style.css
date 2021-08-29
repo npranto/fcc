@@ -1,0 +1,101 @@
+body {
+  background: lightgray;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient( 
+115deg
+, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+body * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.25;
+  color: white;
+  margin: 1em 0.25em 0.25em 0.25em;
+  font-weight: 400;
+}
+.description {
+  font-size: 1.10rem;
+  text-align: center;
+  font-style: italic;
+  margin: 0 0.25em 2em 0.25em;
+  color: white;
+  font-weight: 200;
+}
+.survey-form {
+  width: 100%;
+  background: #2c244c;
+  color: white;
+  padding: 2em 1.5em;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.10rem;
+  max-width: 720px;
+  margin: 0 auto;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+.survey-form > * {
+  margin-bottom: 1.5em;
+}
+.survey-form > div {
+  display: flex;
+  flex-direction: column;
+}
+.survey-form input[type="text"], 
+.survey-form input[type="email"],
+.survey-form input[type="number"],
+.survey-form textarea {
+  display: flex;
+}
+.survey-form input, 
+.survey-form select,
+.survey-form textarea {
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  background: white;
+}
+.survey-form input[type="checkbox"], 
+.survey-form input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 7.5px;
+} 
+.survey-form .recommend-friend-field label, 
+.survey-form .improvement-field label {
+  display: flex;
+  align-items: center;
+}
+.survey-form label, .survey-form p {
+  margin-bottom: 0.40em;
+}
+.survey-form .improvement-field span {
+  font-size: 0.90rem;
+}
+.survey-form option[disabled="true"] {
+  color: red;
+}
+.survey-form .submit-btn {
+  padding: 0.75em;
+  background: #37AF65;
+  color: white;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  font-size: 1.10rem;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0.5em;
+  cursor: pointer;
+}
+
+
